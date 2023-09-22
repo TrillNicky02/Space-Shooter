@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://coj7c8eqf738q"]
+
+[ext_resource type="PackedScene" uid="uid://cq5j5d5xj5d2u" path="res://Player/player.tscn" id="1_l13is"]
+[ext_resource type="PackedScene" uid="uid://coi21pfrp31pv" path="res://Asteroid/asteroid.tscn" id="2_5fbfx"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_l13is")]
+
+[node name="Asteroid_Container" type="Node2D" parent="."]
+
+[node name="Asteroid" parent="Asteroid_Container" instance=ExtResource("2_5fbfx")]
+position = Vector2(100, 100)
+
+[node name="Asteroid2" parent="Asteroid_Container" instance=ExtResource("2_5fbfx")]
+position = Vector2(900, 600)
+
+[node name="Effects" type="Node2D" parent="."]
