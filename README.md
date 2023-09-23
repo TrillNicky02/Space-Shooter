@@ -7,7 +7,7 @@ Project 2 part 4 completed 9/23/2023
 ## Implementation
 Finishing of Part4
 ## What Makes this a Game?
-
+It shows Competence, autonomy, relatedness, narrative.
 ## References
 This work relies heavily on the directions and videos of professor Jason Francis. The Asset pictures used came directly from professor Jason Francis. 
 The fonts used came from Pixel Sagas Freeware Fonts.
