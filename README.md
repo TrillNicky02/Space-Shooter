@@ -3,14 +3,25 @@ Project 2 for MSCH-C220
 
 
 Description
-Project 2 part 4 completed 9/23/2023
+Project 2 Final Version completed 9/27/2023
 ## Implementation
-Finishing of Part4
+I implemenred all the standard expected features, then i added some more features:
+a) I added appropriate background music
+b) I added sounds for the firing of different weapons, collisions and explosions.
+c) I added an appropriate background image for the action
+d) In addition of the laser weapons that the player can fire (with pressing the Space bar), i added a bomb launching weapon (using the "B" key) and a nuclear missile weapon ( using the "N" key)
+e) I added more special effects for the bomb and nuclear weapons
+f) I implemented a feature giving only a limited supply of ammunitions to the player (bullets , bombs, nukes) . And the player can run out of each type of ammunition. For each category the supply allocated is displayed on the screen. I wanted the display to update the player how much ammunition he has left but a bug in the program kept it from updating. I ran out of time before i could find and fix the bug. The display only shows the ammunition that is originally allocated.
+
 ## What Makes this a Game?
 It shows Competence, autonomy, relatedness, narrative.
 ## References
 This work relies heavily on the directions and videos of professor Jason Francis. The Asset pictures used came directly from professor Jason Francis. 
 The fonts used came from Pixel Sagas Freeware Fonts.
+The background picture came from NASA
+Sound effects by Mattias 'MATTIX' Lahood from Freesoung.Org
+Space Music by Chad Crouch
+
 Here is the license to use the fonts.
 Shareware/ Font License
 
@@ -61,7 +72,7 @@ Governing Law
 This agreement is governed by and subject to the laws of the United States of America.
 
 ## Future Development
-Add more advanced features to the project.
+Fix the bug that keeps the On-Screen info about remaining supply of ammunitions from updating.
 ## Created by
 Nicholas Victor
 
