@@ -5,7 +5,13 @@ var score = 0
 var lives = 0
 var time = 0
 
+var ammo_nuke = 0
+var ammo_bomb = 0
+var ammo_bullet = 0
+
 func _ready():
+	
+	
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	randomize()
 	VP = get_viewport().size
@@ -50,6 +56,16 @@ func update_score(s):
 func update_time(t):
 	time += t
 	
+func update_ammo_nuke(n):
+	ammo_nuke += n
+
+func update_ammo_bomb(n):
+	ammo_bomb += n	
+
+func update_ammo_bullet(n):
+	ammo_bullet += n
+	
+	
 	
 func _resize():
 		VP = get_viewport().size
@@ -62,3 +78,6 @@ func reset():
 	score = 0
 	time = 30
 	lives = 5
+	ammo_nuke = 2
+	ammo_bomb = 6
+	ammo_bullet = 60

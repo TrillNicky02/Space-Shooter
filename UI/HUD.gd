@@ -6,11 +6,15 @@ var lives_index = 30
 
 
 
+
 func _ready():
 	update_score()
 	update_time()
 	update_lives()
-	
+	update_ammo_nuke()
+	update_ammo_bomb()
+	update_ammo_bullet()
+		
 	
 func update_score():
 	$Score.text = "Score: " +str(Global.score)
@@ -26,6 +30,18 @@ func update_lives():
 		var indicator = Indicator.instantiate()
 		indicator.position = lives_pos + Vector2(lives_index*i, 0)
 		$Indicator_Container.add_child(indicator)
+		
+
+func update_ammo_nuke():
+	$Nuke.text = "Nuke: " + str(Global.ammo_nuke)
+
+func update_ammo_bomb():
+	$Bomb.text = "Bomb: " + str(Global.ammo_bomb)
+
+func update_ammo_bullet():
+	$Bullet.text = "Bullet: " + str(Global.ammo_bullet)
+
+
 	
 func _on_timer_timeout():
 	Global.update_time(-1)
